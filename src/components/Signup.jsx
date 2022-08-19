@@ -35,7 +35,7 @@ function Signup(){
 
     return(<>
 
-<div className="header">
+<div className="signup-header">
         <li>Home</li>
         <li>About Us</li>
         <li>Contact</li>

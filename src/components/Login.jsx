@@ -56,14 +56,17 @@ function Login(){
 
     return (
         <>
-      <div className="header">
+      <div className="logheader">
+      <div className="login-header">
         <li>Home</li>
         <li>About Us</li>
         <li>Contact</li>
     </div>
-
+      </div>
+          <div className="mainbody">
+          <img src="https://www.instagram.com/static/images/homepage/screenshots/screenshot1.png/fdfe239b7c9f.png" alt="" />
      <div className="login-cont">
-        <h1>Login User</h1>
+        <h1 >Login User</h1>
      {
         error != "" ? <h1>Error is {error}</h1>:
              loader == true?<h1>...Loading</h1>:
@@ -85,6 +88,7 @@ function Login(){
            </> 
             }
      </div>
+          </div>
 
              
              

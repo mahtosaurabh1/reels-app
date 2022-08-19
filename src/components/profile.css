@@ -3,7 +3,7 @@ body{
     font-family: sans-serif;
 }
 
-.header{
+.profile-header{
     height: 5rem;
     /* border-bottom: 2px solid grey; */
     background-color:RGB(35, 34, 52);
@@ -11,8 +11,11 @@ body{
     font-size: 1.2rem;
     color: white;
     list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-.header:hover{
+.pheader :hover{
     background-color: #9f63f4;
 }
 
@@ -65,7 +68,7 @@ body{
     justify-content:center ;
     align-items:center ;
     color: white;
-    margin-top:18rem;
+    margin-top:15rem;
    
     
 }

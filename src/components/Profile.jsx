@@ -27,12 +27,14 @@ function Profile(){
             <>
                 {loading == true?<div>...Loading</div>:    
             <>
+         <div className="pheader">
          <div
-        className="header">
+        className="profile-header">
             <li><Link to='/feed'><button>Feed</button></Link></li>
             <li>About Us</li>
             <li>Contact</li>
         </div>
+         </div>
          <div className="main">
              <div className="pimg_container">
                  <img src="https://i.pinimg.com/736x/f3/10/0c/f3100c7d165dba833efa140bc7e9f73c.jpg" className="pimg" />
