@@ -1,0 +1,28 @@
+.login-cont{
+position: relative;
+color: white;
+border: 2px solid blueviolet;
+top: 5rem;
+width: 23rem;
+height: 18rem;
+padding: 0rem 0rem 2rem 2rem ;
+left: 40%;
+}
+.footer-login{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 23rem;
+   color: white;
+   border: 2px solid blueviolet;
+   padding: 1rem;
+}
+.btn-cont{
+   display: flex;
+   flex-direction: column;
+   margin-top: 1rem;
+}
+.btn-cont button{
+   width: 17.6rem;
+   height: 2rem;
+}
