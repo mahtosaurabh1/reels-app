@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/reels-app/static/css/main.ae56a268.css",
+    "main.js": "/reels-app/static/js/main.e720d339.js",
+    "index.html": "/reels-app/index.html",
+    "main.ae56a268.css.map": "/reels-app/static/css/main.ae56a268.css.map",
+    "main.e720d339.js.map": "/reels-app/static/js/main.e720d339.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae56a268.css",
+    "static/js/main.e720d339.js"
+  ]
+}
