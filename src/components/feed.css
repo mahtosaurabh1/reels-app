@@ -11,6 +11,7 @@
     align-items: center;
     position: fixed;
     width: 100%;
+    z-index: 5;
 }
 .fheader :hover{
     background-color: blueviolet;
@@ -52,7 +53,6 @@
 }
 .reels_container{
     margin-top: 5.5rem;
-    z-index: -1;
 }
 button{
     color: black;

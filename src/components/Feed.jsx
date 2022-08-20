@@ -90,9 +90,7 @@ function Feed() {
                     }}
 
                 ></input>
-
-
-
+                
                 <div className="reels_container">
                     {posts.map((post) => {
                         return <VideoCard key={post.id} data={post} />

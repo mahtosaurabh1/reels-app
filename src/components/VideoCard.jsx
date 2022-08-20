@@ -39,15 +39,15 @@ const VideoCard = (props) => {
 
       <span
         onClick={(e) => {
+          console.log("saurabh");
           if (commentBoxOpen) {
             setCommentBox(false);
           } else {
             setCommentBox(true);
           }
-        }}
-      >
-        <span class="material-symbols-outlined video-card-comment"> chat </span>
-      </span>
+        }}>
+        <span  className ="material-symbols-outlined video-card-comment">chat</span>
+       </span>
 
       <span
         onClick={async () => {
@@ -65,8 +65,9 @@ const VideoCard = (props) => {
           SetCurrUserLiked(c);
         }}
       >
-        {currUserLiked ?<span class="material-symbols-outlined  video-card-like">thumb_up</span>: 
-         <span class="material-symbols-outlined  video-card-like">thumb_down</span> 
+        {currUserLiked == true ?
+        <span class="material-symbols-outlined  video-card-like">thumb_up</span>:
+        <span class="material-symbols-outlined  video-card-like">thumb_down</span> 
         }
       </span>
 
