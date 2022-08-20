@@ -15,7 +15,7 @@ body{
     justify-content: space-around;
     align-items: center;
 }
-.supheader :hover{
+.pheader :hover{
     background-color: #9f63f4;
 }
 
