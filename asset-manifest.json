@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/reels-app/static/css/main.11a8d0f0.css",
-    "main.js": "/reels-app/static/js/main.de545de9.js",
+    "main.css": "/reels-app/static/css/main.4123770c.css",
+    "main.js": "/reels-app/static/js/main.35d358a0.js",
     "index.html": "/reels-app/index.html",
-    "main.11a8d0f0.css.map": "/reels-app/static/css/main.11a8d0f0.css.map",
-    "main.de545de9.js.map": "/reels-app/static/js/main.de545de9.js.map"
+    "main.4123770c.css.map": "/reels-app/static/css/main.4123770c.css.map",
+    "main.35d358a0.js.map": "/reels-app/static/js/main.35d358a0.js.map"
   },
   "entrypoints": [
-    "static/css/main.11a8d0f0.css",
-    "static/js/main.de545de9.js"
+    "static/css/main.4123770c.css",
+    "static/js/main.35d358a0.js"
   ]
 }
