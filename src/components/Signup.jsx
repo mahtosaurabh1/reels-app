@@ -35,11 +35,13 @@ function Signup(){
 
     return(<>
 
+<div className="supheader">
 <div className="signup-header">
         <li>Home</li>
         <li>About Us</li>
         <li>Contact</li>
     </div>
+</div>
    
     <div className="signupmain">
        <div className="signup-content">
